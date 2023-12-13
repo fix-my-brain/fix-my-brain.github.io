@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+
+.page-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 160px;
+  position: relative;
+}
+
+.page-header,
+.page-footer {
+  /* background: #999; */
+}
+
+.page-header-logo-container {
+  max-width: 600px;
+  width: 80%;
+  height: 100px;
+  background-image: url('../img/logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.page-header-text {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 5px;
+  font-style: italic;
+}
+
+.page {
+  margin-right: 35px;
+  margin-left: 35px;
+  overflow-x: hidden;
+  color: #141814;
+}
+
+.page img {
+  width: 90%;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: -1px -1px 5px 4px #ccc;
+}
+
+@media (min-width: 1000px) {
+  .page {
+    margin-right: 95px;
+    margin-left: 95px;
+  }
+
+  .page img {
+    width: 50%;
+  }
+
+  details {
+    width: 50%;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: #324296;
+}
+
+a:hover {
+  color: #5c6fdb;
+}
+
+ol,
+ul:not(.list-of-pages) {
+  max-width: max-content;
+  margin: 0 auto;
+  text-align: left;
+}
+
+table {
+  margin: 0 auto;
+}
+
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: .5em .5em 0;
+  margin-bottom: 15px;
+}
+
+summary {
+  margin: -.5em -.5em 0;
+  padding: .5em;
+  cursor: pointer;
+}
+
+.external-link {
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-image: url(https://en.wikipedia.org/w/skins/Vector/resources/skins.vector.styles/images/link-external-small-ltr-progressive.svg?30a3a);
+  padding-right: 13px;
+}
+
+.ont-plain-text {
+  font-size: 1.1rem;
+}
+
+.link-image-wrapper {
+  display: block;
+}
+
+.yt-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.yt-replay-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: red;
+  color: black;
+  font-size: 1.5rem;
+  border-bottom-left-radius: 25px;
+  cursor: pointer;
+  opacity: .7
+}
+
+.yt-replay-btn:hover {
+  opacity: 1;
+}
+
+.list-of-pages {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.more-articles-navigation-panel {
+  margin-top: 100px;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.page-footer-legal-info-container {
+  font-size: 2rem;
+}
+
+.page-footer-element {
+  margin: 0 10px;
+}

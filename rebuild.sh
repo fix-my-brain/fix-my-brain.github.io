@@ -1,0 +1,1 @@
+cd work/scripts && node file_splitter && node remove_prev_images && node handle_images && node remove_temp_dirs && node be && node bmi && node bai && node bsm && cd ../..

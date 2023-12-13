@@ -1,0 +1,3 @@
+User-agent: *
+
+sitemap: https://fix-my-brain.gitlab.io/sitemap.xml
