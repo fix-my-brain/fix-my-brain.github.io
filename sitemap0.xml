@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://fix-my-brain.github.io/allArticles.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://fix-my-brain.github.io/articles/git-revert/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fix-my-brain.github.io/articles/101-most-useful-websites/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fix-my-brain.github.io/articles/firebird-cannot-connect-to-host/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fix-my-brain.github.io/articles/git-pull-fetch-does-not-seem-to-work/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fix-my-brain.github.io/articles/git-revert-how-to-undo-changes-in-git/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fix-my-brain.github.io/articles/installing-vmware-player-via-msi-failed/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fix-my-brain.github.io/articles/list-of-most-visited-websites/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://fix-my-brain.github.io/articles/windows-11-SSH-fails-to-connect-using-a-private-key-specified-in-config/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
 <url><loc>https://fix-my-brain.github.io/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>
